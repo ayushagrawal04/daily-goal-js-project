@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgba(154, 190, 190, 0.403);
+}
+.container1{
+    /* border: 1px solid red; */
+    width: 60%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+div >h1{
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 20px;
+    font-size: 3vmax;
+    background-color: rgba(223, 203, 203, 0.464);
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* border: 1px solid yellow; */
+    padding: 30px;
+    align-items: center;
+    background-color: white;
+
+} 
+#myInput{
+    width: 80%;
+    height: 4vh;
+    margin: 10px 3px;
+    font-size: 1.2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 4px;
+    background-color: white;
+}
+#writegoal{
+    width: 80%;
+    height: 7vh;
+    margin: 10px 3px;
+    font-size: 1.2vmax;
+    padding-left: 4px;
+    background-color: white;
+
+}
+#myBtn{
+    width: 80%;
+    height: 4vh;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+.task{
+    /* border: 1px solid red; */
+    min-height: 10vh;
+    width: 80%;
+   margin: 20px auto;
+   display: flex;
+   align-items: center;
+   background-color: rgba(106, 110, 111, 0.326);
+   padding: 20px;
+
+
+}
+
+.task >div{
+    width: 100%;
+    /* background-color: white; */
+
+    /* border: 1px solid red; */
+}
+p{
+    /* background-color: white; */
+}
+span{
+    /* background-color: white; */
+}
+.deleteBtn{
+    background-color: rgb(211, 18, 18);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+
+
+}
+/* form{
+    border: 1px solid red;
+} */
+
+  
+
